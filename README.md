@@ -62,16 +62,6 @@ GOOGLE_API_KEY = "your_google_api_key_here"
 
 streamlit run app.py
 
-## 🗂️ Project Structure
-
-biomarker-assistant/
-├── BioMark/                   # Directory for storing PDFs
-├── app.py                     # Main application script
-├── requirements.txt           # Dependencies file
-├── README.md                  # Documentation file
-└── .streamlit/secrets.toml    # API key storage (user-provided)
-
-
 ## ⚙️ How It Works
 ### PDF Metadata Extraction:
 
