@@ -54,9 +54,9 @@ This project assists researchers in extracting biomarkers or other critical insi
    ```bash
    git clone https://github.com/your-username/biomarker-assistant.git
    cd biomarker-assistant
-   ```bash
+   
    pip install -r requirements.txt
-   ```bash
+   
    streamlit run app.py
 
 ## ⚙️ How It Works
