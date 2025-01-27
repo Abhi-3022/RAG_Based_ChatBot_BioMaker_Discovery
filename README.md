@@ -54,13 +54,10 @@ This project assists researchers in extracting biomarkers or other critical insi
    ```bash
    git clone https://github.com/your-username/biomarker-assistant.git
    cd biomarker-assistant
-   
-pip install -r requirements.txt
-
-[GOOGLE_API_KEY]
-GOOGLE_API_KEY = "your_google_api_key_here"
-
-streamlit run app.py
+   ```bash
+   pip install -r requirements.txt
+   ```bash
+   streamlit run app.py
 
 ## ⚙️ How It Works
 ### PDF Metadata Extraction:
