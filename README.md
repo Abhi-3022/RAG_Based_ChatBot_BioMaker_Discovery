@@ -64,16 +64,13 @@ streamlit run app.py
 
 ## 🗂️ Project Structure
 
-RAG_Based_ChatBot_BioMaker_Discovery/
+biomarker-assistant/
 ├── BioMark/                   # Directory for storing PDFs
-
-├── Direct_fetch.py            # Main application script
-
+├── app.py                     # Main application script
 ├── requirements.txt           # Dependencies file
-
 ├── README.md                  # Documentation file
-
 └── .streamlit/secrets.toml    # API key storage (user-provided)
+
 
 ## ⚙️ How It Works
 ### PDF Metadata Extraction:
