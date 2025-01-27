@@ -62,32 +62,36 @@ GOOGLE_API_KEY = "your_google_api_key_here"
 
 streamlit run app.py
 
-### 🗂️ Project Structure
+## 🗂️ Project Structure
 
 RAG_Based_ChatBot_BioMaker_Discovery/
 ├── BioMark/                   # Directory for storing PDFs
+
 ├── Direct_fetch.py            # Main application script
+
 ├── requirements.txt           # Dependencies file
+
 ├── README.md                  # Documentation file
+
 └── .streamlit/secrets.toml    # API key storage (user-provided)
 
-### ⚙️ How It Works
-**PDF Metadata Extraction:**
+## ⚙️ How It Works
+### PDF Metadata Extraction:
 
-Extracts file names, sizes, and counts from the BioMark/ directory.
-**Text Processing:**
+- Extracts file names, sizes, and counts from the BioMark/ directory.
+### Text Processing:
 
-Reads and combines text from all PDFs.
-Splits the text into chunks using LangChain’s RecursiveCharacterTextSplitter.
-**Vector Store Creation:**
+- Reads and combines text from all PDFs.
+- Splits the text into chunks using LangChain’s RecursiveCharacterTextSplitter.
+### Vector Store Creation:
 
-Generates embeddings using Google Generative AI.
-Creates and stores a FAISS index for similarity searches.
-**Question Answering:**
+- Generates embeddings using Google Generative AI.
+- Creates and stores a FAISS index for similarity searches.
+### Question Answering:
 
-Retrieves the most relevant text chunks for a given question.
-Uses a custom prompt to generate detailed responses.
-### 👀 Example Scenarios
-**Biomedical Research:** Query large collections of studies for biomarkers or treatment details.
-**Healthcare Analysis:** Extract insights from clinical trial reports.
-**Academic Use:** Quickly summarize or extract key information from published papers.
+- Retrieves the most relevant text chunks for a given question.
+- Uses a custom prompt to generate detailed responses.
+## 👀 Example Scenarios
+- **Biomedical Research:** Query large collections of studies for biomarkers or treatment details.
+- **Healthcare Analysis:** Extract insights from clinical trial reports.
+- **Academic Use:** Quickly summarize or extract key information from published papers.
